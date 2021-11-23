@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+body {
+    /* background-image: url('login_white_stripe.png'); */
+    height: 100vh;
+    width: 100%;
+}
+
+.header{
+    height: 70px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 12px;
+    background-image: url('login_header_1680.jpg');
+}
+
+.icrewbar{
+    /* background-repeat:repeat-x; */
+    /* background-image: url('login_sky_1680.jpg'); */
+    height: 56px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logindetails{
+    width: 448px;
+    display: flex;
+    flex-direction: row;
+}
+
+.details {
+    width: 220px;
+    flex-direction: column;
+}
+
+.id, .pwd {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* .pwd{ */
+    /* height: 50%; */
+    /* width: 100%; */
+/* } */
+
+.name {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+.inpbox{
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inp {
+    background-image: url('Text_Box.png');
+    size:18;
+    height:23px;
+    display:block;
+    width: 100%;
+    margin-left: 2px;
+}
+
+.button {
+    width: 80px;
+}
+
+.but {
+    width: 70px;
+    height: 100%;
+    background-image: url('Login_Button.png');
+    color: white;
+}
+
+.but:hover {
+    cursor: pointer;
+}
+
+.forgot {
+    width: 148px;
+    background-image: url('ShadedLine.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a{
+    height: 19px;
+    text-decoration:none;
+    color: black;
+}
+
+.a:hover{
+    cursor: help;
+}
+
+.body {
+    background-image: url('login_sky_1680.jpg');
+    /* height: 100%; */
+}
+
+.box{
+    position: absolute;
+    left: 0.5%;
+    top: 20%;
+    width: 19.6%;
+    min-height: 36%;
+    height: 31.5%;
+    background-image: url('welcome_box.png');
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome {
+    height: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.welcometext{
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.text{
+    height: 83%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.english{
+    text-decoration: none;
+    color: red;
+}
+
+.a2{
+    color: white
+}
+
+.ul{
+    height: 100%;
+    margin-left: 7%;
+}
+
+.pad {
+    padding-top: 10%;
+}
